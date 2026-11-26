@@ -1,7 +1,4 @@
 <resources>
     <style name="Theme.NetScope" parent="android:Theme.Material.Light.NoActionBar">
         <item name="android:statusBarColor">#0D1117</item>
-        <item name="android:navigationBarColor">#0D1117</item>
-        <item name="android:windowBackground">#0D1117</item>
-    </style>
-</resources>
+        <!-- Theme definition -->
