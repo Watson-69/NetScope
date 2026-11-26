@@ -37,7 +37,7 @@ class TrafficRepository private constructor() {
     private val _retentionLimit = MutableStateFlow(500)
     val retentionLimit: StateFlow<Int> = _retentionLimit.asStateFlow()
 
-    // Session baselines for relative delta calculation (rx/tx tracking)
+    // Session baselines for relative delta calculation
     internal var baselineRxBytes: Long = 0L
     internal var baselineTxBytes: Long = 0L
     internal var lastSampleRxBytes: Long = 0L
