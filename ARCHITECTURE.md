@@ -2,8 +2,6 @@
 
 NetScope is a single-module Android application (`:app`) written in Kotlin with Jetpack Compose. It runs monitoring work in Android services and exposes state to the UI through singleton repositories backed by `StateFlow`.
 
-<!-- Architecture overview -->
-
 ## Modules and packages
 
 - `com.netscope.app`: `NetScopeApp` (Application entry point) initializes repositories and syncs initial settings.
