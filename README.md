@@ -31,7 +31,7 @@
 - [Permissions](#permissions)
 - [Privacy](#privacy)
 
-NetScope is a native Android diagnostic app for device owners. It monitors device-level and per-app network usage, active connection metadata, and session throughput entirely on-device.
+NetScope is a native Android diagnostic app for device owners. It monitors device-level and per-app network usage, active connection metadata, and session throughput entirely on-device..
 
 It is **not** a remote monitoring or interception tool and does not transmit telemetry off the device.
 
