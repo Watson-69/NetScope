@@ -13,7 +13,7 @@ enum class AppThemeMode(val displayName: String, val badgeColor: Color) {
     RED("Red", Color(0xFFE11D48))
 }
 
-// Milemark Logistics Freight Color Palette - Primary Brand Colors
+// Milemark Logistics Freight Color Palette
 val MilemarkOrange = Color(0xFFED673F) // var(--orange)
 val MilemarkInk    = Color(0xFF1B1C19) // var(--ink)
 val MilemarkPaper  = Color(0xFFF5F5F1) // var(--paper)
