@@ -72,7 +72,6 @@ fun SettingsScreen(
             .padding(horizontal = 16.dp, vertical = 12.dp)
     ) {
     // Section: Theme Toggle Switcher (Black / White / Red)
-    // Theme configuration section
     SettingsSectionHeader(title = "PALETTE CONFIGURATION (BLACK / WHITE / RED)")
 
         EfferdCard(
