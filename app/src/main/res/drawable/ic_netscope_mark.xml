@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="36dp"
+    android:height="26dp"
+    android:viewportWidth="36"
+    android:viewportHeight="26">
+    <!-- Milemark 3 Skewed Dynamic Velocity Bars -->
+    <!-- Bar 1: Flame Orange-Red -->
+    <path
+        android:fillColor="#ED673F"
+        android:pathData="M4,1 L12,1 L5,25 L-3,25 Z"/>
+
+    <!-- Bar 2: Deep Dark / Carbon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M15,1 L23,1 L16,25 L8,25 Z"/>
+
+    <!-- Bar 3: Crimson Red -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M26,1 L34,1 L27,25 L19,25 Z"/>
+</vector>

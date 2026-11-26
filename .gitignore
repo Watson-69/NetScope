@@ -1,0 +1,28 @@
+# Gradle / build outputs
+.gradle
+/build
+app/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Local machine / IDE
+local.properties
+/.idea
+*.iml
+.DS_Store
+Thumbs.db
+
+# Signing / credentials (never commit)
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+google-services.json
+secrets.properties
+
+# Release artifacts / APKs
+*.apk
+/APK
+EOF

@@ -1,0 +1,68 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="520" height="150" viewBox="0 0 520 150" role="img" aria-label="NetScope animated preloader">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A0B09"/>
+      <stop offset="100%" stop-color="#1C1E19"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ED673F" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ED673F" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#EF4444" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="520" height="150" rx="18" fill="url(#bg)"/>
+  <rect x="0" y="0" width="520" height="150" rx="18" fill="none" stroke="#2A2C26" stroke-width="1.5"/>
+
+  <!-- scanning line -->
+  <rect x="-120" y="0" width="120" height="150" fill="url(#scan)" opacity="0.18">
+    <animate attributeName="x" values="-120;520" dur="2.8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- isometric container wireframe -->
+  <g transform="translate(44,34)" fill="none" stroke="#ED673F" stroke-width="2" stroke-linejoin="round">
+    <polygon points="40,0 80,20 80,60 40,80 0,60 0,20" opacity="0.95">
+      <animate attributeName="stroke-opacity" values="0.55;1;0.55" dur="2s" repeatCount="indefinite"/>
+    </polygon>
+    <line x1="40" y1="0" x2="40" y2="80" stroke="#EF4444" stroke-dasharray="6 6">
+      <animate attributeName="stroke-dashoffset" values="0;24" dur="1.2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" y1="20" x2="80" y2="20" stroke="#2A2C26"/>
+    <line x1="0" y1="60" x2="80" y2="60" stroke="#2A2C26"/>
+  </g>
+
+  <!-- corner locks -->
+  <g fill="#EF4444">
+    <circle cx="84" cy="34" r="3">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="124" cy="54" r="3">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="84" cy="114" r="3">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1s" begin="0.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="44" cy="94" r="3">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="1s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- animated packet dots -->
+  <g fill="#10B981">
+    <circle cx="150" cy="75" r="2.5">
+      <animateMotion path="M0,0 C40,-30 90,30 140,0" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="75" r="2.5" opacity="0.6">
+      <animateMotion path="M0,0 C30,25 80,-25 130,0" dur="3.1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <text x="188" y="62" font-family="monospace" font-size="34" font-weight="800" fill="#FFFFFF" letter-spacing="-1">netscope</text>
+  <text x="388" y="62" font-family="monospace" font-size="34" font-weight="900" fill="#ED673F">.</text>
+  <text x="188" y="90" font-family="monospace" font-size="12" fill="#A1A39B">3D freight telemetry · local diagnostics</text>
+
+  <!-- progress rail -->
+  <rect x="188" y="108" width="280" height="6" rx="3" fill="#2A2C26"/>
+  <rect x="188" y="108" width="0" height="6" rx="3" fill="#ED673F">
+    <animate attributeName="width" values="0;280;0" dur="2.4s" repeatCount="indefinite"/>
+  </rect>
+</svg>

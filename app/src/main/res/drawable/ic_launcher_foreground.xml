@@ -1,0 +1,57 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 3D Isometric Shipping Container Cube -->
+    <!-- Top Face (roof corrugation) -->
+    <path
+        android:fillColor="#242621"
+        android:strokeColor="#383B33"
+        android:strokeWidth="1.5"
+        android:strokeLineJoin="round"
+        android:pathData="M54,22 L84,38 L54,54 L24,38 Z"/>
+    
+    <!-- Top Corrugation Ridges -->
+    <path
+        android:strokeColor="#3F4239"
+        android:strokeWidth="1.2"
+        android:pathData="M34,32 L64,48 M44,27 L74,43"/>
+
+    <!-- Left Face (deep shadow) -->
+    <path
+        android:fillColor="#151713"
+        android:strokeColor="#383B33"
+        android:strokeWidth="1.5"
+        android:strokeLineJoin="round"
+        android:pathData="M24,38 L54,54 L54,86 L24,70 Z"/>
+
+    <!-- Right Face (illuminated telemetry) -->
+    <path
+        android:fillColor="#1B1D18"
+        android:strokeColor="#383B33"
+        android:strokeWidth="1.5"
+        android:strokeLineJoin="round"
+        android:pathData="M54,54 L84,38 L84,70 L54,86 Z"/>
+
+    <!-- Milemark Signature 3 Skewed Velocity Bars across the Container Front -->
+    <!-- Bar 1: Flame Red-Orange -->
+    <path
+        android:fillColor="#ED673F"
+        android:pathData="M40,56 L47,52 L43,76 L36,80 Z"/>
+
+    <!-- Bar 2: Signal Paper White -->
+    <path
+        android:fillColor="#F5F5F1"
+        android:pathData="M50,51 L57,47 L53,71 L46,75 Z"/>
+
+    <!-- Bar 3: Crimson Red Accent -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M60,46 L67,42 L63,66 L56,70 Z"/>
+
+    <!-- Milemark Precision Status Dot -->
+    <path
+        android:fillColor="#ED673F"
+        android:pathData="M74,68m-3,0a3,3 0 1,0 6,0a3,3 0 1,0 -6,0"/>
+</vector>
