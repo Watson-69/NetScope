@@ -6,6 +6,7 @@ import org.junit.Assert.assertEquals
 import org.junit.Test
 
 class TrafficAggregationTest {
+    // Traffic aggregation tests
 
     @Test
     fun testTrafficSnapshotCalculations() {
