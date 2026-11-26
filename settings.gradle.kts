@@ -21,5 +21,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "NetScope"
 include(":app")
-
-// Project configuration
