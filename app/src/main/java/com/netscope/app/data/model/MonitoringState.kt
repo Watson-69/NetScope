@@ -6,7 +6,7 @@ enum class TimeWindow(val label: String, val durationSeconds: Int) {
     LAST_5_MINUTES("5m", 300),
     LAST_15_MINUTES("15m", 900),
     ALL_SESSION("All", -1)
-}
+    // Time window enum for chart selection
 
 enum class MonitoringMode(val title: String, val description: String) {
     STANDARD_METRICS(
