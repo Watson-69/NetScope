@@ -20,6 +20,7 @@ enum class MonitoringMode(val title: String, val description: String) {
 }
 
 data class MonitoringState(
+    // Monitoring state data class
     val isMonitoring: Boolean = false,
     val mode: MonitoringMode = MonitoringMode.STANDARD_METRICS,
     val sessionStartTime: Long = 0L,
