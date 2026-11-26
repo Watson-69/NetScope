@@ -51,6 +51,7 @@ It is **not** a remote monitoring or interception tool and does not transmit tel
 - Records connection metadata such as protocol, IP, port, direction, and packet size.
 - Supports standard metrics mode and an optional local VPN header inspection mode.
 - Stores settings and history locally on the device.
+- Includes privacy-first on-device processing.
 
 ## Tech stack
 
