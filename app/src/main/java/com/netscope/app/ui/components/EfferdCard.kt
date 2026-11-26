@@ -22,6 +22,7 @@ import androidx.compose.ui.unit.dp
  * at each corner, matching the developer-dashboard design of dashboard-9.
  * 
  * Used across Overview and Settings screens.
+ */
 @Composable
 fun EfferdCard(
     modifier: Modifier = Modifier,
