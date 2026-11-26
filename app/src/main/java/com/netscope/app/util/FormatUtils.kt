@@ -24,6 +24,8 @@ enum class RateUnit(val label: String) {
 
 object FormatUtils {
 
+    // Utility for formatting bytes, rates, and durations
+
     fun formatBytes(bytes: Long): String {
         if (bytes < 0) return "0 B"
         if (bytes < 1024) return "$bytes B"
