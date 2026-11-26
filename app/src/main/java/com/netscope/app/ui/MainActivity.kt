@@ -76,6 +76,7 @@ import com.netscope.app.ui.theme.MilemarkOrange
 import com.netscope.app.ui.theme.NetScopeTheme
 
 class MainActivity : ComponentActivity() {
+    // Main activity entry point
 
     private lateinit var settingsRepository: SettingsRepository
     private val trafficRepository = TrafficRepository.getInstance()
