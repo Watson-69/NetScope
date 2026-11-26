@@ -7,6 +7,7 @@ import org.junit.Assert.assertEquals
 import org.junit.Test
 
 class DirectionAndProtocolTest {
+    // Direction and protocol tests
 
     @Test
     fun testProtocolDetectionFromPortAndNumber() {
