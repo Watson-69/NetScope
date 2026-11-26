@@ -11,7 +11,7 @@ import kotlinx.coroutines.flow.asStateFlow
 class SettingsRepository(context: Context) {
 
     private val prefs: SharedPreferences =
-        context.getSharedPreferences("netscope_settings", Context.MODE_PRIVATE)
+        context.getSharedPreferences("netscope_settings", Context.MODE_PRIVATE) // settings storage
 
     private val _themeMode = MutableStateFlow(
         try {
