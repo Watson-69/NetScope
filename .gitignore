@@ -1,4 +1,5 @@
 # Gradle / build outputs
+# Build artifacts
 .gradle
 /build
 app/build
