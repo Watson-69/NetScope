@@ -46,8 +46,7 @@ It is **not** a remote monitoring or interception tool and does not transmit tel
 
 ## What it does
 
-- Shows download/upload rates, session totals, active connections, and network type.
-- Detects Wi-Fi, cellular, and ethernet connections. 
+- Shows download/upload rates, session totals, active connections, and network type. 
 - Lists per-app network usage.
 - Records connection metadata such as protocol, IP, port, direction, and packet size.
 - Supports standard metrics mode and an optional local VPN header inspection mode.
