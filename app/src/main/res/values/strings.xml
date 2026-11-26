@@ -4,3 +4,4 @@
     <string name="channel_name">NetScope Active Monitoring</string>
     <string name="channel_desc">Shows live upload/download speeds while NetScope is actively monitoring.</string>
     <!-- App strings -->
+</resources>
