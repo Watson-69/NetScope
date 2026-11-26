@@ -35,7 +35,7 @@ object FormatUtils {
         return String.format(Locale.US, "%.2f GB", gb)
     }
 
-    // Format rate for display
+    fun formatRate(bytesPerSec: Long): String {
         if (bytesPerSec <= 0) return "0 B/s"
         if (bytesPerSec < 1024) return "$bytesPerSec B/s"
         val kb = bytesPerSec / 1024.0
