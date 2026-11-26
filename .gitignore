@@ -1,5 +1,4 @@
 # Gradle / build outputs
-# Build configuration
 .gradle
 /build
 app/build
