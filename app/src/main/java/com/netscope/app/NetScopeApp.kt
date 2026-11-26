@@ -5,6 +5,7 @@ import com.netscope.app.data.repository.SettingsRepository
 import com.netscope.app.data.repository.TrafficRepository
 
 class NetScopeApp : Application() {
+    // Application class entry point
 
     override fun onCreate() {
         super.onCreate()
