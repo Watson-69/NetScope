@@ -9,7 +9,6 @@ import android.os.Process
 import com.netscope.app.data.model.NetworkType
 
 internal object NetworkStateHelper {
-    // Network state helper utility
 
     fun getCurrentNetworkType(context: Context): NetworkType {
         val cm = context.getSystemService(Context.CONNECTIVITY_SERVICE) as? ConnectivityManager
