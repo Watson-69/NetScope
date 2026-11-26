@@ -14,6 +14,7 @@ enum class AppThemeMode(val displayName: String, val badgeColor: Color) {
 }
 
 // Milemark Logistics Freight Color Palette
+// Primary brand colors for NetScope
 val MilemarkOrange = Color(0xFFED673F) // var(--orange)
 val MilemarkInk    = Color(0xFF1B1C19) // var(--ink)
 val MilemarkPaper  = Color(0xFFF5F5F1) // var(--paper)
