@@ -35,6 +35,7 @@ fun StatusBadge(
     isMonitoring: Boolean,
     modifier: Modifier = Modifier
 ) {
+    // Status badge for monitoring state
     val bgColor = if (isMonitoring) EmeraldGreen.copy(alpha = 0.15f) else Color.Gray.copy(alpha = 0.15f)
     val dotColor = if (isMonitoring) EmeraldGreen else Color.Gray
     val text = if (isMonitoring) "MONITORING ACTIVE" else "IDLE"
