@@ -76,6 +76,7 @@ fun OverviewScreen(
     var showClearConfirmDialog by remember { mutableStateOf(false) }
 
     // Interactive Rate Unit States: user can tap to cycle KB/s -> MB/s -> GB/s -> Auto
+    // Download and upload unit selection
     var downloadUnit by remember { mutableStateOf(RateUnit.KB_S) }
     var uploadUnit by remember { mutableStateOf(RateUnit.KB_S) }
 
